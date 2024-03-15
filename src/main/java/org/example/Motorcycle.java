@@ -2,18 +2,18 @@ package org.example;
 
 public class Motorcycle extends Vehicle{
 
-    String Wheels;
+    int Wheels;
 
-    public Motorcycle(String manufacturer, String model, int yearOfManufacture, String wheels) {
+    public Motorcycle(String manufacturer, String model, int yearOfManufacture, int wheels) {
         super(manufacturer, model, yearOfManufacture);
         Wheels = wheels;
     }
 
-    public String getWheels() {
+    public int getWheels() {
         return Wheels;
     }
 
-    public void setWheels(String wheels) {
+    public void setWheels(int wheels) {
         Wheels = wheels;
     }
 
@@ -22,5 +22,9 @@ public class Motorcycle extends Vehicle{
         return "Motorcycle{" +
                 "Wheels='" + Wheels + '\'' +
                 '}';
+    }
+
+    public String getType() {
+        return getManufacturer();
     }
 }

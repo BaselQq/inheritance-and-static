@@ -14,6 +14,7 @@ public class Main {
         Car car1 = new Car("BMW", "5", 2005, 4, "Gold");
         car1.outputVehicleInfos();
 
-        Motorcycle motorcycle1 = new Motorcycle("BMW", "5", 2005, 2);
+        Motorcycle motorcycle1 = new Motorcycle("Chopper", "1", 2004, 2);
+        System.out.println("Motorcycle infos: " + motorcycle1.getType());
     }
 }
