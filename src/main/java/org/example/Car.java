@@ -53,6 +53,6 @@ public class Car extends Vehicle{
 
     @Override
     public void outputVehicleInfos() {
-        System.out.println("Car infos: " + " " + getManufacturer() + " " +  getModel() + " " + getYearOfManufacture() + " and doors are " + getNumberOfDoors());
+        System.out.println("Car infos: " + " " + getManufacturer() + " " +  getModel() + " " + getYearOfManufacture() + " and it's doors are " + getNumberOfDoors());
     }
 }
